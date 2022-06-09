@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Lottery
+comment0.text=\n\ This\ program\ runs\ a\ lottery\ and\ calculates\ the\ corresponding\ payout\ based\ on\ the\ number\ of\ matches\ \n\ on\ a\ randomly\ chosen\ ticket,\ as\ well\ as\ the\ total\ profit.\n\ \n\ @author\ Nour\ Mihamou\ and\ Lulama\ Nyembe\n\ @version\ 04/9/2021\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ This\ method\ is\ used\ to\ run\ the\ lottery.\ \ \n\ DO\ NOT\ EDIT\ THIS\ METHOD.\n\ \n\ @param\ args\ No\ command\ line\ arguments\ are\ necessary.\n
+comment2.params=
+comment2.target=void\ setWinningNumbers()
+comment2.text=\n\ The\ method\ sets\ the\ global\ static\ (class)\ variables\ ball1,\ ball2,\n\ ...,\ ball5\ to\ random\ values\ in\ [1,\ 39].\ \ Each\ of\ the\ 5\ numbers\n\ selected\ must\ be\ unique.\ \ E.g.,\n\ \n\ {17,\ 9,\ 28,\ 12,\ 1}\n\ \n\ is\ a\ valid\ selection,\ but\ \n\ \n\ {17,\ 9,\ 28,\ 12,\ 17}\n\ \n\ is\ not\ a\ valid\ selection\ because\ 17\ was\ selected\ twice.\n
+comment3.params=fileName
+comment3.target=void\ readInData(java.lang.String)
+comment3.text=\n\ This\ method\ reads\ all\ of\ the\ lottery\ tickets\ from\ the\ input\ file.\n\ As\ each\ ticket\ is\ read,\ the\ number\ of\ matches\ is\ recorded\ by\ updating\n\ the\ appropriate\ global\ static\ (class)\ variable.\ \ E.g.,\ if\ the\ ticket\n\ read\ matches\ 3\ of\ the\ winning\ numbers,\ num3Match\ is\ incremented\ by\ 1.\n\ \n\ @param\ fileName\ The\ name\ of\ the\ input\ file.\ \ This\ file\ must\ be\ a\n\ CSV\ file\ in\ the\ format\ expected\ for\ this\ project.\n
+comment4.params=
+comment4.target=void\ printOutput()
+comment4.text=\n\ This\ method\ prints\ the\ output\ formatted\ as\ shown\ in\ the\ example\n\ output.\n
+numComments=5
